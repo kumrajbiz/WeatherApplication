@@ -20,6 +20,7 @@ public class WeatherMapApIv2MocroserviceApplication {
 		SpringApplication.run(WeatherMapApIv2MocroserviceApplication.class, args);
 	}
 	
+	
 	@Bean
 	public Docket productApi() {
 	    return new Docket(DocumentationType.SWAGGER_2)
